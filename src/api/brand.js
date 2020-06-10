@@ -32,7 +32,7 @@ export function updateFactoryStatus(data) {
 export function deleteBrand(id) {
   return request({
     url:'/brand/delete/'+id,
-    method:'get',
+    method:'post',
   })
 }
 
